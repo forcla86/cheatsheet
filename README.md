@@ -30,8 +30,7 @@ Hier wird nun ein Array definiert, $wochentag soll der Namen des Arrays werden, 
 
 ```php
 <?php
-$wochentage = array("Sonntag","Montag","Dienstag",
-"Mittwoch","Donnerstag","Freitag","Samstag");
+$wochentage = array("Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag");
 ?>
 ```
 
@@ -41,8 +40,7 @@ Das ausgeben des eben erst erstellten Arrays ist relativ simpel, dazu erstellen 
 
 ```php
 <?php
-$wochentage = array("Sonntag","Montag","Dienstag",
-"Mittwoch","Donnerstag","Freitag","Samstag");
+$wochentage = array("Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag");
 
 echo $wochentage[1];
 
@@ -137,4 +135,32 @@ PHP bietet mehr als 50 Funktionen im Zusammenhang mit Arrays an, diese können s
 
 ## 3.3 Arrays verknüpfen
 
+Sie können mittels der Funktion array_merge() mehrere Arrays miteinander verknüpfen. 
+
+```php
+<?php
+$array1 = array(3, 2, 4);
+$array2 = array("a", "b", "c");
+$ergebnis = array_merge($array1, $array2);
+
+print_r($ergebnis);
+?>
+```
+
 ## 3.4 Arrays sortieren
+
+Arrays können sie mit der Funktion sort() sortiert werden, ebenfalls können sie bestimmen ob von A nach Z oder von Z nach A sortiert werden soll, also auf oder absteigend. 
+
+```php
+<?php
+$namen = array("Klaus", "Dieter", "Anna", "Melissa", "Peter");
+
+sort($namen);
+?>
+```
+
+
+# 4. Quellen
+
+1. Buch (Schooltas.net)
+2. [Arrays](http://php.net/manual/de/language.types.array.php)
