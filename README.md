@@ -90,6 +90,7 @@ Jedes PHP-Skript hat Zugriff auf die drei Variablen $_POST, $_GET und $_REQUEST.
 
 ## 2.2 Allgemeine Systeminformationen
 
+```
 Name der momentan geöffneten Datei
 echo $_SERVER["PHP_SELF"]; 
 
@@ -119,7 +120,7 @@ echo $_SERVER["REMOTE_PORT"];
 
 Port der vom Webserver verwendet wird, um mit dem Besucher zu kommunizieren
 echo $_SERVER["SERVER_PORT"]; 
-
+```
 
 # 3. Funktionen zur Arraybearbeitung
 
