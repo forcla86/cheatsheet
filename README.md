@@ -4,7 +4,7 @@ Wir haben hier für dich eine online Version des Cheat Sheet's, der Vorteil der 
 
 
 ### Inhaltsverzeichnis
-
+```
 1. Arrays
 1.1 Arrays definieren
 1.2 Arrays ausgeben
@@ -18,7 +18,7 @@ Wir haben hier für dich eine online Version des Cheat Sheet's, der Vorteil der 
 3.2 Arrayfunktionen
 3.3 Arrays verknüpfen
 3.4 Arrays sortieren
-
+```
 
 # 1. Arrays
 
