@@ -1,6 +1,6 @@
 # Herzlich Willkommen
 
-Wir haben hier für dich eine online Version des Cheat Sheet's, der Vorteil der webbasierten Umgebung, welche wir hier besitzen, sie haben ein Benutzerfreundliches GUI, sprich sie haben ein Code Highlighting.
+Wir haben hier für dich eine online Version des Cheat Sheet's, ebenfalls in github platziert findest du ein Word File mit dem selben Inhalt.
 
 
 ### Inhaltsverzeichnis
@@ -86,7 +86,7 @@ PHP stellt verschiedene global erreichbare Systemvariablen zu Verfügung.
 
 ## 2.1 Variablen für den Zugriff auf HTML Parameter
 
-Jedes PHP-Skript hat Zugriff auf die drei Variablen $_POST, $_GET und $_REQUEST. Diese drei Variablen enthalten Werte, welche an das Skript übergebene Werte enthalten.
+Jedes PHP-Skript hat Zugriff auf die drei Variablen $_POST, $_GET und $_REQUEST. Diese drei Variablen enthalten Werte, welche an das Skript übergeben werden.
 
 ## 2.2 Allgemeine Systeminformationen
 
