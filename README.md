@@ -90,7 +90,7 @@ Jedes PHP-Skript hat Zugriff auf die drei Variablen $_POST, $_GET und $_REQUEST.
 
 ## 2.2 Allgemeine Systeminformationen
 
-```
+```php
 Name der momentan geöffneten Datei
 echo $_SERVER["PHP_SELF"]; 
 
