@@ -125,7 +125,7 @@ echo $_SERVER["SERVER_PORT"];
 
 ## 3.1 Arrayzeiger
 
-Jedes Element, welches mehr als eine Wert beinhaltet, besitzt einen Pointer (Zeiger), dieser zeigt im Array auf ein bestimmtes Element bzw. Wert. Dieser sogenannte Pointer ist nun vergleichbar mit einem Wegweiser. 
+Jedes Element, welches mehr als einen Wert beinhaltet, besitzt einen Pointer (Zeiger), dieser zeigt im Array auf ein bestimmtes Element bzw. Wert. Dieser sogenannte Pointer ist nun vergleichbar mit einem Wegweiser. 
 
 ## 3.2 Arrayfunktionen
 
